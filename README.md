@@ -1,2 +1,2 @@
 # TheWebDevelopmentBootcamp2022-Colt-Steele
-It Will include only selected exercise and websites demo piece I make
+It will include only selected exercises and websites demo piece I make
