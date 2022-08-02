@@ -1,0 +1,13 @@
+img {
+  width: 30%;
+  /* margin: 1.66%; */
+  margin: calc(10% / 6);
+}
+nav {
+  margin-left: calc(10% / 6);
+  width: 30%;
+  padding: 25px 0;
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: 2px solid #f1f1f1;
+}
