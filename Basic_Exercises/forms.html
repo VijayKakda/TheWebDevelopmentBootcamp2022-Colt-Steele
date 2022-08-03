@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms tryout</title>
+  </head>
+  <body>
+    <h1>Simple Login Form</h1>
+    <form action="/decost">
+      <button type="button">Doesn't Submit</button>
+      <p>
+        <label for="username">Username</label>
+        <input type="text" placeholder="Enter Name " id="username" />
+      </p>
+      <p>
+        <label for="pwd">Enter Password</label>
+        <input type="password" placeholder="Enter Password" id="pwd" />
+      </p>
+      <p>
+        <label for="age">Enter Age</label>
+        <input type="number" placeholder="Enter Age" id="age" />
+      </p>
+      <button>Submit</button>
+    </form>
+
+    <!-- New thing learnt -->
+
+    <h2>Hijacking Searches</h2>
+    <form action="https://www.reddit.com/search">
+      <label for="reddit">Search in Reddit</label>
+      <input type="text" id="reddit" name="q" />
+      <button>Search Reddit</button>
+    </form>
+    <br />
+    <form action="https://www.google.com/search">
+      <label for="google">Search in Google</label>
+      <input type="text" id="google" name="q" />
+      <button>Search Google</button>
+    </form>
+    <br />
+    <form action="https://www.youtube.com/results">
+      <label for="youtube">Search in Youtube</label>
+      <input type="text" name="search_query" id="youtube" />
+      <button>Search Youtube</button>
+    </form>
+
+    <h3>input types</h3>
+    <form action="/tacos">
+      <p>
+        <h3>Select Shoe size</h3>
+        <input type="radio" name="size" id="s" value="s"/>
+        <label for="s">Small</label>
+        <br>
+        <input type="radio" name="size" id="m" value="m"/>
+        <label for="m">Medium</label>
+        <br>
+        <input type="radio" name="size" id="l" value="l"/>
+        <label for="l">Large</label>
+      </p>
+
+      <label for="shoesize">Shoe Size</label>
+      <select name="ShoeSize" id="shoesize">
+        <option value="8">8</option>
+        <option value="9" selected>9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+      </select>
+      <br>
+      <input type="checkbox" id="tos" name="agreed_tos" />
+      <label for="tos">I have read all the terms and conditions</label>
+      <br>
+      <button>submit</button>
+    </form>
+  </body>
+</html>
