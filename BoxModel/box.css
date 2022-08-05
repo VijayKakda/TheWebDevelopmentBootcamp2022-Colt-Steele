@@ -1,0 +1,28 @@
+div {
+  width: 250px;
+  height: 275px;
+  font-size: larger;
+}
+h1 {
+  width: fit-content;
+  height: fit-content;
+  background-color: bisque;
+}
+#one {
+  background-color: #cdb4db;
+  border-width: 5px;
+  border-color: rgb(255, 38, 0);
+  border-style: solid;
+}
+#two {
+  background-color: #f4a261;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+}
+#three {
+  background-color: #ccd5ae;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #3a0ca3;
+}
